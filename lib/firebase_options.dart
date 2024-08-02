@@ -58,12 +58,13 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAjP3Y7yOEYxAF8sO1Qsni0w91YnQ1lkyo',
+    apiKey: '',
     appId: '1:913496799278:ios:e32d869b33644dad2d87bf',
     messagingSenderId: '913496799278',
     projectId: 'flutty-a59cb',
     storageBucket: 'flutty-a59cb.appspot.com',
-    iosClientId: '913496799278-c9t4h1lhbrqdba81rbbhv9o78cseb41i.apps.googleusercontent.com',
+    iosClientId:
+        '913496799278-c9t4h1lhbrqdba81rbbhv9o78cseb41i.apps.googleusercontent.com',
     iosBundleId: 'com.flutty.flutty',
   );
 }
